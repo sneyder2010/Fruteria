@@ -14,7 +14,7 @@ class ProblemasFrutas
         decimal precioCiruela = 30;
         decimal precioBanano = 80;
 
-        decimal precioPiña = 1000;
+        decimal precioPina = 1000;
 
         Console.Write("Pera - ");
         int cantidadPeras = ObtenerCantidad();
@@ -35,7 +35,7 @@ class ProblemasFrutas
             (cantidadManzanas * precioManzana) +
             (cantidadCiruelas * precioCiruela) +
             (cantidadBananos * precioBanano) +
-            (cantidadPiña * precioPiña);
+            (cantidadPiña * precioPina);
 
         if (costoTotal > 20000)
         {
